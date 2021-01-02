@@ -1,0 +1,141 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+ 
+ .banner{
+ 	background-image: linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/t.jpg);
+ 	height: 100vh;
+ 	background-position: center;
+ 	background-size: cover;
+ 	width: 100%;
+ 	overflow: hidden;
+ }
+ header{
+ 	background: #9898e047;
+    height: auto;
+    padding: 25px;
+    font-family: fangsong;
+
+ }
+ .main ul{
+ 	 	list-style-type: none;
+ 	 	text-align: center;
+ 	 	display: inline-flex;
+ }
+ .main ul li{
+ 	
+/* display: inline-block; */
+ 	
+padding: 10px;
+ 	
+border:1px solid transparent;
+ }
+ .main ul li a{
+ 	text-decoration: none;
+    color: blue;
+    
+        }
+ .active,.main ul li:hover{
+ 	background-color: white;
+
+ 	transition: 0.6s ease;
+ }
+  .drop{
+ 	display: none;
+ }
+.main ul li:hover .drop{
+	display: block;
+	background: #e2e2f6;
+	position: absolute;
+	margin-top: 11px;
+	margin-left: -11px;
+	text-align: left;
+}
+.main ul li:hover .drop ul{
+	display: block;
+}
+ .title{
+ 	
+position: absolute;
+ 	
+top: 50%;
+ 	
+left: 50%;
+ 	
+transform: translate(-50%,-50%);
+ 	
+transition: 0.6s;
+ }
+ .title h1{
+ 	font-size: 50px;
+ 	color: white;
+ 	text-transform: uppercase;
+ }
+ .button{
+ 	position: absolute;
+ 	top: 60%;
+ 	left: 50%;
+ 	transform: translate(-50%,-50%);
+ 	overflow: hidden;
+
+ }
+ .button button{
+ 	padding: 10px 0px 10px 0px;
+ 	margin: 5px;
+ 	border-radius: 15px;
+ 	background-color: #66a3ff;
+ 	overflow: hidden;
+ 	border: 1px solid transparent;
+ 	}
+ .button button a{text-decoration: none;
+ 	padding: 20px 20px 20px 20px;
+ 	color: black;}
+ 	 .button button:hover{
+ 	 	background: white;
+ 	 	color: white;
+ 	 	box-sizing: border-box;
+ 	 }
+ 	 .button button a:hover{color: #66a3ff;
+ 	 	overflow: hidden;}
+ 	 	.aboutus{
+ 	 		text-align: center;
+ 	 		width: 70%;
+ 	 		margin: auto;
+ 	 		height: 400px;
+ 	 		margin-top: 40px;
+ 	 		font-family: sans-serif;
+ 	 	}
+ 	 	.about{
+ 	 		float: left;
+ 	 		width: 400px;
+ 	 		margin: 25px;
+ 	 	}
+ 	.about-img{
+ 		background: #f1f1f1;
+ 		height: 80px;
+ 		width:80px;
+ 		border-radius: 50%;
+ 		position: relative;
+ 		left: 50%;
+ 		transform: translateX(-50%);
+ 		margin-bottom: 15px;
+ 	}
+ 	.abouts{
+ 		background:#f1f1f1;
+ 		box-sizing: border-box;
+ 		padding: 30px;
+ 		position: relative;
+ 		margin-top: 20px;
+ 	}
+ 	.abouts:after{
+ 		content: '';
+ 		background: #f1f1f1;
+ 		left: 50%;
+ 		top: 10%;
+ 		transform: translateX(-44%) translateY(-68%) rotate(45deg);
+ 		position: absolute;
+ 		width: 40px;
+ 		height: 40px;
+ 		z-index: -1;
+ 	}
