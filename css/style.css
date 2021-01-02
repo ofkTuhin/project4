@@ -138,4 +138,10 @@ transition: 0.6s;
  		width: 40px;
  		height: 40px;
  		z-index: -1;
- 	}
+	 }
+	 .container{
+		 height: 300px;
+		 width: 500px;
+		 margin: auto;
+		 background-color: #66a3ff;
+	 }
