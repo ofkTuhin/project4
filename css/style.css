@@ -154,16 +154,27 @@ transition: 0.6s;
     width: 1000px;
     margin: auto;
     background-color: #d1d8d8;
-    height: 400px;
+    height: 600px;
+}
+.portfolio h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 50px;
+    padding: 68px 0px;
+}
+.portfolio span{
+    color: orange;
 }
 		.portfolio .content{
     float: left;
     /* display: block; */
-    width: 30.33%;
+    width: 29.33%;
     /* box-sizing: border-box; */
     /* padding: 12px; */
     background-color: white;
-    margin: 10px;
+    /* margin: 0px 10px 0px 10px; */
+    border-radius: 10px;
+    margin: 0px 20px;
 }
 		.portfolio .content .pic{
     /* width: 33.33%; */
@@ -177,8 +188,30 @@ width: 100%;
 }
 .description h4{
 
+font-size: 20px;
+
+font-family: sans-serif;
+
+padding: 10px 0px 5px;
 }
 .description p{
 
+font-size: 13px;
+
+padding: 10px 0px 15px;
+
+font-family: sans-serif;
+
+line-height: 15px;
 }
-.content-child{}
+.content-child{
+    padding: 0px 14px;
+}
+.design{
+	background-image: url(../images/Group_33094_1.png);
+	height: 200px;
+	width: 60%;
+	margin: auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
